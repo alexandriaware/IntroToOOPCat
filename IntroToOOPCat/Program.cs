@@ -24,21 +24,50 @@ namespace IntroToOOPCat
             //mittens.WorkOut(); 
 
 
-            Dog firstDoge = new Dog();
+            //Dog firstDoge = new Dog();
 
-            firstDoge.Weight = 60.00;
-            firstDoge.Height = 3.2f;
-            firstDoge.FurLength = "flowing mane";
-            firstDoge.RunningSpeed = "will fetch....eventually..";
+            //firstDoge.Weight = 60.00;
+            //firstDoge.Height = 3.2f;
+            //firstDoge.FurLength = "flowing mane";
+            //firstDoge.RunningSpeed = "will fetch....eventually..";
 
-            firstDoge.Groom();
-            Console.WriteLine(firstDoge.FurLength);
+            //firstDoge.Groom();
+            //Console.WriteLine(firstDoge.FurLength);
 
-            firstDoge.Run();
-            Console.WriteLine("The dog now weighs " + firstDoge.Weight);
-            Console.WriteLine(firstDoge.RunningSpeed);
+            //firstDoge.Run();
+            //Console.WriteLine("The dog now weighs " + firstDoge.Weight);
+            //Console.WriteLine(firstDoge.RunningSpeed);
 
-            firstDoge.Bark();
+            //firstDoge.Bark();
+
+
+
+
+            Dog secondDoge = new Dog("fluffy", 4.04f);
+
+            Console.WriteLine(secondDoge.FurLength);
+
+            secondDoge.Groom();
+
+            Console.WriteLine(secondDoge.FurLength);
+
+            secondDoge.RunningSpeed = "Faster than lightning.";
+
+            Console.WriteLine(secondDoge.RunningSpeed);
+
+            secondDoge.Run();
+
+            Console.WriteLine(secondDoge.RunningSpeed);
+
+            secondDoge.Weight = 78.9;
+
+            Console.WriteLine(secondDoge.Weight);
+
+            secondDoge.Potty();
+
+            Console.WriteLine(secondDoge.Weight);
+
+            secondDoge.Bark();
 
         }
     }
