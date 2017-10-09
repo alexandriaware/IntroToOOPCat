@@ -43,31 +43,91 @@ namespace IntroToOOPCat
 
 
 
-            Dog secondDoge = new Dog("fluffy", 4.04f);
+            //Dog secondDoge = new Dog("fluffy", 4.04f);
 
-            Console.WriteLine(secondDoge.FurLength);
+            //Console.WriteLine(secondDoge.FurLength);
 
-            secondDoge.Groom();
+            //secondDoge.Groom();
 
-            Console.WriteLine(secondDoge.FurLength);
+            //Console.WriteLine(secondDoge.FurLength);
 
-            secondDoge.RunningSpeed = "Faster than lightning.";
+            //secondDoge.RunningSpeed = "Faster than lightning.";
 
-            Console.WriteLine(secondDoge.RunningSpeed);
+            //Console.WriteLine(secondDoge.RunningSpeed);
 
-            secondDoge.Run();
+            //secondDoge.Run();
 
-            Console.WriteLine(secondDoge.RunningSpeed);
+            //Console.WriteLine(secondDoge.RunningSpeed);
 
-            secondDoge.Weight = 78.9;
+            //secondDoge.Weight = 78.9;
 
-            Console.WriteLine(secondDoge.Weight);
+            //Console.WriteLine(secondDoge.Weight);
 
-            secondDoge.Potty();
+            //secondDoge.Potty();
 
-            Console.WriteLine(secondDoge.Weight);
+            //Console.WriteLine(secondDoge.Weight);
 
-            secondDoge.Bark();
+            //secondDoge.Bark();
+
+
+
+            ////Time to destroy the world.
+            Villian Hobbes = new Villian("Chaotic Neutral", "supersonic barks");
+
+            Console.WriteLine("Hello, world.");
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("I have been called the Greatest Man's Best Friend of all time...");
+            System.Threading.Thread.Sleep(4000);
+            Console.WriteLine("...but it really depends on who and when you ask.");
+            Hobbes.EvilLaugh();
+            Console.WriteLine("Bwahahahaha!");
+
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("Ahem. For example, there was a perfect burrito, all lonely and hot just\n lying there - so I ate it.");
+            System.Threading.Thread.Sleep(4000);
+            Console.WriteLine("Right as I swallowed, my human saw me and yelled, 'NO!' \nHeat spread through my belly, and suddenly I couldn't keep still!");
+            Hobbes.EatsBurrito();
+            Hobbes.Healthpoints = 5;
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine(Hobbes.Abilities);
+            Console.WriteLine("I ran.\nHuman: 'Bad dog!'");
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("Suddenly, I found myself backed into a corner, and the hair \nalong my spine bristled.");
+            Hobbes.Attack();
+            Console.WriteLine("I bared my teeth to growl, when...I tossed my burrito.");
+
+            //HP drain
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine(Hobbes.Abilities);
+            Console.WriteLine(Hobbes.Healthpoints);
+            Hobbes.EnergyLevel();
+            System.Threading.Thread.Sleep(1000);
+            Console.WriteLine(Hobbes.Healthpoints);
+            Hobbes.EnergyLevel();
+            System.Threading.Thread.Sleep(1000);
+            Console.WriteLine(Hobbes.Healthpoints);
+            Hobbes.EnergyLevel();
+            System.Threading.Thread.Sleep(1000);
+            Console.WriteLine(Hobbes.Healthpoints);
+            Hobbes.EnergyLevel();
+            System.Threading.Thread.Sleep(1000);
+            Console.WriteLine(Hobbes.Healthpoints);
+            Hobbes.EnergyLevel();
+            System.Threading.Thread.Sleep(1000);
+            Console.WriteLine(Hobbes.Healthpoints);
+
+            Console.WriteLine("Human: 'Aww. Poor baby. C'mere.'");
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("My human picked me up and held me close.");
+            Hobbes.Cuddle();
+            Console.WriteLine("And I felt better.");
+            System.Threading.Thread.Sleep(1500);
+            Console.WriteLine("And as I nestled in, I heard my human whisper:");
+            System.Threading.Thread.Sleep(1000);
+            Console.WriteLine("'Who's the Greatest Man's Best Friend?'");
+
+
+
 
         }
     }
