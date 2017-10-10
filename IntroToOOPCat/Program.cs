@@ -72,7 +72,7 @@ namespace IntroToOOPCat
 
 
             ////Time to destroy the world.
-            Villian Hobbes = new Villian("Chaotic Neutral", "supersonic barks");
+            Villian Hobbes = new Villian("Chaotic Good", "tummy trouble");
 
             Console.WriteLine("Hello, world.");
             System.Threading.Thread.Sleep(2000);
@@ -86,8 +86,11 @@ namespace IntroToOOPCat
             Console.WriteLine("Ahem. For example, there was a perfect burrito, all lonely and hot just\n lying there - so I ate it.");
             System.Threading.Thread.Sleep(4000);
             Console.WriteLine("Right as I swallowed, my human saw me and yelled, 'NO!' \nHeat spread through my belly, and suddenly I couldn't keep still!");
+
             Hobbes.EatsBurrito();
+
             Hobbes.Healthpoints = 5;
+
             System.Threading.Thread.Sleep(2000);
             Console.WriteLine(Hobbes.Abilities);
             Console.WriteLine("I ran.\nHuman: 'Bad dog!'");
@@ -96,7 +99,7 @@ namespace IntroToOOPCat
             Hobbes.Attack();
             Console.WriteLine("I bared my teeth to growl, when...I tossed my burrito.");
 
-            //HP drain
+            //HP drain -- hard way
             System.Threading.Thread.Sleep(2000);
             Console.WriteLine(Hobbes.Abilities);
             Console.WriteLine(Hobbes.Healthpoints);
@@ -119,12 +122,16 @@ namespace IntroToOOPCat
             Console.WriteLine("Human: 'Aww. Poor baby. C'mere.'");
             System.Threading.Thread.Sleep(2000);
             Console.WriteLine("My human picked me up and held me close.");
+
+            //HP boost -- easy way!
             Hobbes.Cuddle();
+
             Console.WriteLine("And I felt better.");
             System.Threading.Thread.Sleep(1500);
             Console.WriteLine("And as I nestled in, I heard my human whisper:");
             System.Threading.Thread.Sleep(1000);
             Console.WriteLine("'Who's the Greatest Man's Best Friend?'");
+            Hobbes.EvilLaugh();
 
 
 
